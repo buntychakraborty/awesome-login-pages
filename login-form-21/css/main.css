@@ -1,97 +1,97 @@
-
-
-
-
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
 @font-face {
   font-family: Oswald-Regular;
-  src: url('../fonts/oswald/Oswald-Regular.ttf'); 
+  src: url("../fonts/oswald/Oswald-Regular.ttf");
 }
 
 @font-face {
   font-family: Oswald-Medium;
-  src: url('../fonts/oswald/Oswald-Medium.ttf'); 
+  src: url("../fonts/oswald/Oswald-Medium.ttf");
 }
 
 @font-face {
   font-family: Oswald-Bold;
-  src: url('../fonts/oswald/Oswald-Bold.ttf'); 
+  src: url("../fonts/oswald/Oswald-Bold.ttf");
 }
-
-
 
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
 * {
-	margin: 0px; 
-	padding: 0px; 
-	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-body, html {
-	height: 100%;
-	font-family: Oswald-Regular, sans-serif;
+body,
+html {
+  height: 100%;
+  font-family: Oswald-Regular, sans-serif;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Oswald-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
-	transition: all 0.4s;
-	-webkit-transition: all 0.4s;
+  font-family: Oswald-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
 }
 
 a:focus {
-	outline: none !important;
+  outline: none !important;
 }
 
 a:hover {
-	text-decoration: none;
+  text-decoration: none;
   color: #111111;
 }
 
 /*---------------------------------------------*/
-h1,h2,h3,h4,h5,h6 {
-	margin: 0px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
 }
 
 p {
-	font-family: Oswald-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
+  font-family: Oswald-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
 }
 
-ul, li {
-	margin: 0px;
-	list-style-type: none;
+ul,
+li {
+  margin: 0px;
+  list-style-type: none;
 }
-
 
 /*---------------------------------------------*/
 input {
-	outline: none;
-	border: none;
+  outline: none;
+  border: none;
 }
 
 input[type="number"] {
-    -moz-appearance: textfield;
-    appearance: none;
-    -webkit-appearance: none;
+  -moz-appearance: textfield;
+  appearance: none;
+  -webkit-appearance: none;
 }
 
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
+  -webkit-appearance: none;
 }
 
 textarea {
@@ -99,34 +99,50 @@ textarea {
   border: none;
 }
 
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
   border-color: transparent !important;
 }
 
+input::-webkit-input-placeholder {
+  color: #43383e;
+}
+input:-moz-placeholder {
+  color: #43383e;
+}
+input::-moz-placeholder {
+  color: #43383e;
+}
+input:-ms-input-placeholder {
+  color: #43383e;
+}
 
-input::-webkit-input-placeholder { color: #43383e;}
-input:-moz-placeholder { color: #43383e;}
-input::-moz-placeholder { color: #43383e;}
-input:-ms-input-placeholder { color: #43383e;}
-
-textarea::-webkit-input-placeholder { color: #43383e;}
-textarea:-moz-placeholder { color: #43383e;}
-textarea::-moz-placeholder { color: #43383e;}
-textarea:-ms-input-placeholder { color: #43383e;}
+textarea::-webkit-input-placeholder {
+  color: #43383e;
+}
+textarea:-moz-placeholder {
+  color: #43383e;
+}
+textarea::-moz-placeholder {
+  color: #43383e;
+}
+textarea:-ms-input-placeholder {
+  color: #43383e;
+}
 
 /*---------------------------------------------*/
 button {
-	outline: none !important;
-	border: none;
-	background: transparent;
+  outline: none !important;
+  border: none;
+  background: transparent;
 }
 
 button:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 iframe {
-	border: none !important;
+  border: none !important;
 }
 
 /*//////////////////////////////////////////////////////////////////
@@ -153,10 +169,16 @@ iframe {
   text-transform: uppercase;
 }
 
-.bg1 {background-color: #3b5998;}
-.bg2 {background-color: #1da1f2;}
+.bg1 {
+  background-color: #3b5998;
+}
+.bg2 {
+  background-color: #1da1f2;
+}
 
-.bo1 {border-bottom: 1px solid #929292;}
+.bo1 {
+  border-bottom: 1px solid #929292;
+}
 
 .hov1:hover {
   border-bottom: 1px solid #111111;
@@ -172,7 +194,7 @@ iframe {
 }
 
 .container-login100 {
-  width: 100%;  
+  width: 100%;
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -193,7 +215,6 @@ iframe {
   border-radius: 0px;
 }
 
-
 /*==================================================================
 [ Form ]*/
 
@@ -211,7 +232,6 @@ iframe {
 
   display: block;
 }
-
 
 /*------------------------------------------------------------------
 [ Button Login with ]*/
@@ -270,7 +290,6 @@ iframe {
   padding: 0 35px 0 35px;
 }
 
-
 /*------------------------------------------------------------------
 [ Focus Input ]*/
 
@@ -290,7 +309,7 @@ iframe {
   border-radius: 31px;
   background-color: #fff;
   pointer-events: none;
-  
+
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -391,7 +410,7 @@ iframe {
   border-radius: 31px;
   background-color: #333333;
   pointer-events: none;
-  
+
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -402,7 +421,6 @@ iframe {
   background-color: #222222;
   width: calc(100% + 20px);
 }
-
 
 /*------------------------------------------------------------------
 [ Alert validate ]*/
@@ -480,6 +498,6 @@ iframe {
 [ Responsive ]*/
 @media (max-width: 576px) {
   .wrap-login100 {
-    padding-top: 20px
+    padding-top: 20px;
   }
 }

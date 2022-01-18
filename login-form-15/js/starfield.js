@@ -1,6 +1,5 @@
-;
-(function($, window, document, undefined) {
-  var Starfield = function(el, options) {
+(function ($, window, document, undefined) {
+  var Starfield = function (el, options) {
     this.el = el;
     this.$el = $(el);
     this.options = options;
@@ -13,32 +12,33 @@
   var canCanvas = false;
   var animId;
 
-  (function() {
+  (function () {
     var lastTime = 0;
-    var vendors = ['ms', 'moz', 'webkit', 'o'];
+    var vendors = ["ms", "moz", "webkit", "o"];
     for (var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
-      window.requestAnimationFrame = window[vendors[x] + 'RequestAnimationFrame'];
-      window.cancelAnimationFrame = window[vendors[x] + 'CancelAnimationFrame'] ||
-        window[vendors[x] + 'CancelRequestAnimationFrame'];
+      window.requestAnimationFrame =
+        window[vendors[x] + "RequestAnimationFrame"];
+      window.cancelAnimationFrame =
+        window[vendors[x] + "CancelAnimationFrame"] ||
+        window[vendors[x] + "CancelRequestAnimationFrame"];
     }
 
     if (!window.requestAnimationFrame)
-      window.requestAnimationFrame = function(callback, element) {
+      window.requestAnimationFrame = function (callback, element) {
         var currTime = new Date().getTime();
         var timeToCall = Math.max(0, 16 - (currTime - lastTime));
-        var id = window.setTimeout(function() {
-            callback(currTime + timeToCall);
-          },
-          timeToCall);
+        var id = window.setTimeout(function () {
+          callback(currTime + timeToCall);
+        }, timeToCall);
         lastTime = currTime + timeToCall;
         return id;
       };
 
     if (!window.cancelAnimationFrame)
-      window.cancelAnimationFrame = function(id) {
+      window.cancelAnimationFrame = function (id) {
         clearTimeout(id);
       };
-  }());
+  })();
 
   Starfield.prototype = {
     defaults: {
@@ -51,10 +51,10 @@
       speed: 3,
       quantity: 512,
       ratio: 256,
-      divclass: "starfield"
+      divclass: "starfield",
     },
 
-    resizer: function() {
+    resizer: function () {
       var oldStar = this.star;
       var initW = this.context.canvas.width;
       var initH = this.context.canvas.height;
@@ -73,26 +73,33 @@
         this.star[i][0] = oldStar[i][0] * ratX;
         this.star[i][1] = oldStar[i][1] * ratY;
 
-        this.star[i][3] = this.x + (this.star[i][0] / this.star[i][2]) * this.star_ratio;
-        this.star[i][4] = this.y + (this.star[i][1] / this.star[i][2]) * this.star_ratio;
+        this.star[i][3] =
+          this.x + (this.star[i][0] / this.star[i][2]) * this.star_ratio;
+        this.star[i][4] =
+          this.y + (this.star[i][1] / this.star[i][2]) * this.star_ratio;
       }
 
       that.context.fillStyle = that.settings.bgColor;
       this.context.strokeStyle = this.settings.starColor;
     },
 
-    init: function() {
+    init: function () {
       this.settings = $.extend({}, this.defaults, this.options);
       var url = document.location.href;
       this.n = parseInt(
-        (url.indexOf('n=') != -1) ? url.substring(url.indexOf('n=') + 2, (
-            (url.substring(
-              url.indexOf('n=') + 2,
-              url.length)).indexOf('&') != -1) ? url.indexOf('n=') + 2 + (url.substring(
-            url.indexOf('n=') + 2,
-            url.length)).indexOf('&') :
-          url.length) :
-        this.settings.quantity
+        url.indexOf("n=") != -1
+          ? url.substring(
+              url.indexOf("n=") + 2,
+              url.substring(url.indexOf("n=") + 2, url.length).indexOf("&") !=
+                -1
+                ? url.indexOf("n=") +
+                    2 +
+                    url
+                      .substring(url.indexOf("n=") + 2, url.length)
+                      .indexOf("&")
+                : url.length
+            )
+          : this.settings.quantity
       );
 
       this.flag = true;
@@ -123,10 +130,12 @@
       this.canvas_h = 0;
 
       this.fps = this.settings.fps;
-      this.desktop = !navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|BB10|IEMobile)/);
+      this.desktop = !navigator.userAgent.match(
+        /(iPhone|iPod|iPad|Android|BlackBerry|BB10|IEMobile)/
+      );
       this.orientationSupport = window.DeviceOrientationEvent !== undefined;
       this.portrait = null;
-      var canvasInit = function() {
+      var canvasInit = function () {
         that.w = that.$el.width();
         that.h = that.$el.height();
 
@@ -135,23 +144,22 @@
 
         that.portrait = that.w < that.h;
 
-        that.wrapper = $('<canvas />')
-          .addClass(that.settings.divclass);
+        that.wrapper = $("<canvas />").addClass(that.settings.divclass);
 
         that.wrapper.appendTo(that.el);
 
-        that.starz = $('canvas', that.el);
+        that.starz = $("canvas", that.el);
 
         if (that.starz[0].getContext) {
-          that.context = that.starz[0].getContext('2d');
+          that.context = that.starz[0].getContext("2d");
           canCanvas = true;
         }
 
         that.context.canvas.width = that.w;
         that.context.canvas.height = that.h;
-      }
+      };
       canvasInit();
-      var starInit = function() {
+      var starInit = function () {
         if (canCanvas) {
           that.x = Math.round(that.w / 2);
           that.y = Math.round(that.h / 2);
@@ -174,13 +182,12 @@
         } else {
           return;
         }
-      }
+      };
       starInit();
 
       isInited = true;
     },
-    anim: function() {
-
+    anim: function () {
       this.mouse_x = this.cursor_x - this.x;
       this.mouse_y = this.cursor_y - this.y;
       this.context.fillRect(0, 0, this.w, this.h);
@@ -217,15 +224,20 @@
           this.test = false;
         }
 
-        this.star[i][3] = this.x + (this.star[i][0] / this.star[i][2]) * this.star_ratio;
-        this.star[i][4] = this.y + (this.star[i][1] / this.star[i][2]) * this.star_ratio;
+        this.star[i][3] =
+          this.x + (this.star[i][0] / this.star[i][2]) * this.star_ratio;
+        this.star[i][4] =
+          this.y + (this.star[i][1] / this.star[i][2]) * this.star_ratio;
 
-        if (this.star_x_save > 0 &&
+        if (
+          this.star_x_save > 0 &&
           this.star_x_save < this.w &&
           this.star_y_save > 0 &&
           this.star_y_save < this.h &&
-          this.test) {
-          this.context.lineWidth = (1 - this.star_color_ratio * this.star[i][2]) * 2;
+          this.test
+        ) {
+          this.context.lineWidth =
+            (1 - this.star_color_ratio * this.star[i][2]) * 2;
           this.context.beginPath();
           this.context.moveTo(this.star_x_save, this.star_y_save);
           this.context.lineTo(this.star[i][3], this.star[i][4]);
@@ -233,24 +245,23 @@
           this.context.closePath();
         }
       }
-
     },
 
-    loop: function() {
+    loop: function () {
       this.anim();
 
-      animId = window.requestAnimationFrame(function() {
-        that.loop()
+      animId = window.requestAnimationFrame(function () {
+        that.loop();
       });
     },
 
-    move: function() {
+    move: function () {
       var doc = document.documentElement;
 
       if (this.orientationSupport && !this.desktop) {
-        window.addEventListener('deviceorientation', handleOrientation, false);
+        window.addEventListener("deviceorientation", handleOrientation, false);
       } else {
-        window.addEventListener('mousemove', handleMousemove, false);
+        window.addEventListener("mousemove", handleMousemove, false);
       }
 
       function handleOrientation(event) {
@@ -263,24 +274,26 @@
             y = event.gamma;
           }
 
-          that.cursor_x = (that.w / 2) + (x * 5);
-          that.cursor_y = (that.h / 2) + (y * 5);
+          that.cursor_x = that.w / 2 + x * 5;
+          that.cursor_y = that.h / 2 + y * 5;
         }
       }
 
       function handleMousemove(event) {
-        that.cursor_x = event.pageX || event.clientX + doc.scrollLeft - doc.clientLeft;
-        that.cursor_y = event.pageY || event.clientY + doc.scrollTop - doc.clientTop;
+        that.cursor_x =
+          event.pageX || event.clientX + doc.scrollLeft - doc.clientLeft;
+        that.cursor_y =
+          event.pageY || event.clientY + doc.scrollTop - doc.clientTop;
       }
     },
 
-    stop: function() {
+    stop: function () {
       window.cancelAnimationFrame(animId);
 
       isPlaying = false;
     },
 
-    start: function() {
+    start: function () {
       if (!isInited) {
         isInited = true;
         this.init();
@@ -291,29 +304,37 @@
         this.loop();
       }
 
-      window.addEventListener('resize', function() {
-        that.resizer()
-      }, false);
+      window.addEventListener(
+        "resize",
+        function () {
+          that.resizer();
+        },
+        false
+      );
 
-      window.addEventListener('orientationchange', function() {
-        that.resizer()
-      }, false);
+      window.addEventListener(
+        "orientationchange",
+        function () {
+          that.resizer();
+        },
+        false
+      );
 
       if (this.settings.mouseMove) {
         this.move();
       }
 
       return this;
-    }
-  }
+    },
+  };
 
   Starfield.defaults = Starfield.prototype.defaults;
-  $.fn.starfield = function(options) {
-    return this.each(function() {
+  $.fn.starfield = function (options) {
+    return this.each(function () {
       new Starfield(this, options).start();
     });
-  }
+  };
   window.Starfield = Starfield;
 })(jQuery, window, document);
 
-$('.starfield').starfield();
+$(".starfield").starfield();

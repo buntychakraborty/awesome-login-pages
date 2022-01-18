@@ -19,12 +19,12 @@ body {
   height: 400px;
 }
 .limit-width {
-    width: 300px;
+  width: 300px;
 }
-.box-title{
-    padding: 0 15px;
-    color: #f53b57;
-    text-decoration: underline;
+.box-title {
+  padding: 0 15px;
+  color: #f53b57;
+  text-decoration: underline;
 }
 .absolute-footer {
   bottom: 0;
@@ -79,11 +79,11 @@ body {
   overflow: hidden;
   padding: 10px;
 }
-.input-group i{
-    position: absolute;
-    left: 5px;
-    top: 50%;
-    transform: translateY(-50%);
+.input-group i {
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .input-group input {
   border: none;

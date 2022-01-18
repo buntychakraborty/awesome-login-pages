@@ -58,7 +58,7 @@ html {
 }
 body {
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   height: 100%;
   line-height: 1.7;
@@ -80,7 +80,7 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0 0 20px 0;
   color: #111;
 }
@@ -450,7 +450,10 @@ ul {
     font-size: 16px;
   }
 }
-.fxt-template-layout1 .fxt-header .fxt-page-switcher .switcher-text1:last-child {
+.fxt-template-layout1
+  .fxt-header
+  .fxt-page-switcher
+  .switcher-text1:last-child {
   margin-right: 0;
   padding-right: 0;
   border-right: 0;
@@ -525,7 +528,7 @@ ul {
 .fxt-template-layout1 .fxt-btn-fill {
   margin-right: 30px;
   margin-top: 15px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -615,12 +618,12 @@ ul {
   color: #00acee;
 }
 .fxt-template-layout1 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
-  border-color: #CC3333;
+  background-color: #cc3333;
+  border-color: #cc3333;
 }
 .fxt-template-layout1 ul.fxt-socials li.fxt-google a:hover {
   background-color: transparent;
-  color: #CC3333;
+  color: #cc3333;
 }
 .fxt-template-layout1 ul.fxt-socials li.fxt-instagram a {
   background-color: #3f729b;
@@ -631,12 +634,12 @@ ul {
   color: #3f729b;
 }
 .fxt-template-layout1 ul.fxt-socials li.fxt-linkedin a {
-  background-color: #0077B5;
-  border-color: #0077B5;
+  background-color: #0077b5;
+  border-color: #0077b5;
 }
 .fxt-template-layout1 ul.fxt-socials li.fxt-linkedin a:hover {
   background-color: transparent;
-  color: #0077B5;
+  color: #0077b5;
 }
 .fxt-template-layout1 ul.fxt-socials li.fxt-youtube a {
   background-color: #c4302b;
@@ -784,7 +787,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout2 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -982,7 +985,7 @@ ul {
   background-color: #3dc5f3;
 }
 .fxt-template-layout2 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
+  background-color: #cc3333;
 }
 .fxt-template-layout2 ul.fxt-socials li.fxt-google a i {
   background-color: #db4437;
@@ -1029,7 +1032,7 @@ ul {
   display: none;
 }
 .fxt-template-layout2 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
@@ -1201,7 +1204,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout3 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -1379,13 +1382,13 @@ ul {
   background-color: #3dc5f3;
 }
 .fxt-template-layout3 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
+  background-color: #cc3333;
 }
 .fxt-template-layout3 ul.fxt-socials li.fxt-google a:before {
   background-color: #e75042;
 }
 .fxt-template-layout3 ul.fxt-socials li.fxt-linkedin a {
-  background-color: #0077B5;
+  background-color: #0077b5;
 }
 .fxt-template-layout3 ul.fxt-socials li.fxt-linkedin a:before {
   background-color: #006da6;
@@ -1429,7 +1432,7 @@ ul {
   display: none;
 }
 .fxt-template-layout3 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
@@ -1691,7 +1694,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout4 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -1769,12 +1772,12 @@ ul {
   color: #00acee;
 }
 .fxt-template-layout4 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
-  border-color: #CC3333;
+  background-color: #cc3333;
+  border-color: #cc3333;
 }
 .fxt-template-layout4 ul.fxt-socials li.fxt-google a:hover {
   background-color: transparent;
-  color: #CC3333;
+  color: #cc3333;
 }
 .fxt-template-layout4 ul.fxt-socials li.fxt-instagram a {
   background-color: #3f729b;
@@ -1785,12 +1788,12 @@ ul {
   color: #3f729b;
 }
 .fxt-template-layout4 ul.fxt-socials li.fxt-linkedin a {
-  background-color: #0077B5;
-  border-color: #0077B5;
+  background-color: #0077b5;
+  border-color: #0077b5;
 }
 .fxt-template-layout4 ul.fxt-socials li.fxt-linkedin a:hover {
   background-color: transparent;
-  color: #0077B5;
+  color: #0077b5;
 }
 .fxt-template-layout4 ul.fxt-socials li.fxt-youtube a {
   background-color: #c4302b;
@@ -1865,7 +1868,7 @@ ul {
   display: none;
 }
 .fxt-template-layout4 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
@@ -2122,7 +2125,9 @@ ul {
     font-size: 16px;
   }
   .fxt-template-layout5 .fxt-page-switcher .switcher-text.switcher-text1.active,
-  .fxt-template-layout5 .fxt-page-switcher .switcher-text.switcher-text2.active {
+  .fxt-template-layout5
+    .fxt-page-switcher
+    .switcher-text.switcher-text2.active {
     color: #0e9d88;
     background-color: #e4e4e4;
   }
@@ -2138,7 +2143,7 @@ ul {
   }
 }
 .fxt-template-layout5 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -2245,12 +2250,12 @@ ul {
   color: #00acee;
 }
 .fxt-template-layout5 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
-  border-color: #CC3333;
+  background-color: #cc3333;
+  border-color: #cc3333;
 }
 .fxt-template-layout5 ul.fxt-socials li.fxt-google a:hover {
   background-color: transparent;
-  color: #CC3333;
+  color: #cc3333;
 }
 .fxt-template-layout5 ul.fxt-socials li.fxt-instagram a {
   background-color: #3f729b;
@@ -2261,12 +2266,12 @@ ul {
   color: #3f729b;
 }
 .fxt-template-layout5 ul.fxt-socials li.fxt-linkedin a {
-  background-color: #0077B5;
-  border-color: #0077B5;
+  background-color: #0077b5;
+  border-color: #0077b5;
 }
 .fxt-template-layout5 ul.fxt-socials li.fxt-linkedin a:hover {
   background-color: transparent;
-  color: #0077B5;
+  color: #0077b5;
 }
 .fxt-template-layout5 ul.fxt-socials li.fxt-pinterest a {
   background-color: #bd081c;
@@ -2314,7 +2319,7 @@ ul {
   display: none;
 }
 .fxt-template-layout5 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
@@ -2466,7 +2471,7 @@ ul {
 }
 .fxt-template-layout6 .fxt-btn-fill {
   margin-right: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -2571,12 +2576,12 @@ ul {
   color: #00acee;
 }
 .fxt-template-layout6 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
-  border-color: #CC3333;
+  background-color: #cc3333;
+  border-color: #cc3333;
 }
 .fxt-template-layout6 ul.fxt-socials li.fxt-google a:hover {
   background-color: transparent;
-  color: #CC3333;
+  color: #cc3333;
 }
 .fxt-template-layout6 ul.fxt-socials li.fxt-instagram a {
   background-color: #3f729b;
@@ -2587,12 +2592,12 @@ ul {
   color: #3f729b;
 }
 .fxt-template-layout6 ul.fxt-socials li.fxt-linkedin a {
-  background-color: #0077B5;
-  border-color: #0077B5;
+  background-color: #0077b5;
+  border-color: #0077b5;
 }
 .fxt-template-layout6 ul.fxt-socials li.fxt-linkedin a:hover {
   background-color: transparent;
-  color: #0077B5;
+  color: #0077b5;
 }
 .fxt-template-layout6 ul.fxt-socials li.fxt-youtube a {
   background-color: #c4302b;
@@ -2756,7 +2761,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout7 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -2954,7 +2959,7 @@ ul {
   background-color: #3dc5f3;
 }
 .fxt-template-layout7 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
+  background-color: #cc3333;
 }
 .fxt-template-layout7 ul.fxt-socials li.fxt-google a i {
   background-color: #db4437;
@@ -3001,7 +3006,7 @@ ul {
   display: none;
 }
 .fxt-template-layout7 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
@@ -3148,7 +3153,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout8 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -3348,7 +3353,7 @@ ul {
   background-color: #3dc5f3;
 }
 .fxt-template-layout8 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
+  background-color: #cc3333;
 }
 .fxt-template-layout8 ul.fxt-socials li.fxt-google a i {
   background-color: #db4437;
@@ -3395,7 +3400,7 @@ ul {
   display: none;
 }
 .fxt-template-layout8 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
@@ -3538,7 +3543,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout9 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -3631,7 +3636,7 @@ ul {
   display: none;
 }
 .fxt-template-layout9 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
@@ -3844,7 +3849,7 @@ ul {
   }
 }
 .fxt-template-layout10 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -3869,7 +3874,7 @@ ul {
 }
 .fxt-template-layout10 .fxt-btn-ghost {
   margin-top: 15px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -3950,14 +3955,17 @@ ul {
   display: none;
 }
 .fxt-template-layout10 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
   left: 15px;
   top: 4px;
 }
-.fxt-template-layout10 .checkbox input[type="checkbox"]:checked + label::before {
+.fxt-template-layout10
+  .checkbox
+  input[type="checkbox"]:checked
+  + label::before {
   background-color: #ffbd3f;
   border-color: #ffbd3f;
 }
@@ -4011,11 +4019,11 @@ ul {
   color: #fff;
 }
 .fxt-template-layout10 ul.fxt-socials li.fxt-google a {
-  color: #CC3333;
+  color: #cc3333;
 }
 .fxt-template-layout10 ul.fxt-socials li.fxt-google a:hover {
-  border-color: #CC3333;
-  background-color: #CC3333;
+  border-color: #cc3333;
+  background-color: #cc3333;
   color: #fff;
 }
 .fxt-template-layout10 ul.fxt-socials li.fxt-instagram a {
@@ -4027,11 +4035,11 @@ ul {
   color: #fff;
 }
 .fxt-template-layout10 ul.fxt-socials li.fxt-linkedin a {
-  color: #0077B5;
+  color: #0077b5;
 }
 .fxt-template-layout10 ul.fxt-socials li.fxt-linkedin a:hover {
-  border-color: #0077B5;
-  background-color: #0077B5;
+  border-color: #0077b5;
+  background-color: #0077b5;
   color: #fff;
 }
 .fxt-template-layout10 ul.fxt-socials li.fxt-youtube a {
@@ -4188,7 +4196,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout11 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -4386,7 +4394,7 @@ ul {
   background-color: #3dc5f3;
 }
 .fxt-template-layout11 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
+  background-color: #cc3333;
 }
 .fxt-template-layout11 ul.fxt-socials li.fxt-google a i {
   background-color: #db4437;
@@ -4433,14 +4441,17 @@ ul {
   display: none;
 }
 .fxt-template-layout11 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
   left: 15px;
   top: 4px;
 }
-.fxt-template-layout11 .checkbox input[type="checkbox"]:checked + label::before {
+.fxt-template-layout11
+  .checkbox
+  input[type="checkbox"]:checked
+  + label::before {
   background-color: #111;
   border-color: #111;
 }
@@ -4586,7 +4597,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout12 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -4784,7 +4795,7 @@ ul {
   background-color: #3dc5f3;
 }
 .fxt-template-layout12 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
+  background-color: #cc3333;
 }
 .fxt-template-layout12 ul.fxt-socials li.fxt-google a i {
   background-color: #db4437;
@@ -4831,14 +4842,17 @@ ul {
   display: none;
 }
 .fxt-template-layout12 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
   left: 15px;
   top: 4px;
 }
-.fxt-template-layout12 .checkbox input[type="checkbox"]:checked + label::before {
+.fxt-template-layout12
+  .checkbox
+  input[type="checkbox"]:checked
+  + label::before {
   background-color: #2e4bf1;
   border-color: #2e4bf1;
 }
@@ -4859,7 +4873,7 @@ ul {
 .fxt-template-layout13:before {
   position: absolute;
   z-index: 0;
-  background-color: #009BB6;
+  background-color: #009bb6;
   content: "";
   min-height: 100%;
   width: 35vw;
@@ -5092,7 +5106,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout13 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -5103,7 +5117,7 @@ ul {
   border: 0;
   color: #fff;
   border-radius: 3px;
-  background-color: #009BB6;
+  background-color: #009bb6;
   padding: 10px 36px;
   margin-bottom: 10px;
   width: 100%;
@@ -5170,12 +5184,12 @@ ul {
   color: #00acee;
 }
 .fxt-template-layout13 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
-  border-color: #CC3333;
+  background-color: #cc3333;
+  border-color: #cc3333;
 }
 .fxt-template-layout13 ul.fxt-socials li.fxt-google a:hover {
   background-color: transparent;
-  color: #CC3333;
+  color: #cc3333;
 }
 .fxt-template-layout13 ul.fxt-socials li.fxt-instagram a {
   background-color: #3f729b;
@@ -5186,12 +5200,12 @@ ul {
   color: #3f729b;
 }
 .fxt-template-layout13 ul.fxt-socials li.fxt-linkedin a {
-  background-color: #0077B5;
-  border-color: #0077B5;
+  background-color: #0077b5;
+  border-color: #0077b5;
 }
 .fxt-template-layout13 ul.fxt-socials li.fxt-linkedin a:hover {
   background-color: transparent;
-  color: #0077B5;
+  color: #0077b5;
 }
 .fxt-template-layout13 ul.fxt-socials li.fxt-youtube a {
   background-color: #c4302b;
@@ -5266,16 +5280,19 @@ ul {
   display: none;
 }
 .fxt-template-layout13 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
   left: 15px;
   top: 4px;
 }
-.fxt-template-layout13 .checkbox input[type="checkbox"]:checked + label::before {
-  background-color: #009BB6;
-  border-color: #009BB6;
+.fxt-template-layout13
+  .checkbox
+  input[type="checkbox"]:checked
+  + label::before {
+  background-color: #009bb6;
+  border-color: #009bb6;
 }
 .fxt-template-layout13 .fxt-footer {
   text-align: center;
@@ -5432,7 +5449,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout14 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -5630,7 +5647,7 @@ ul {
   background-color: #3dc5f3;
 }
 .fxt-template-layout14 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
+  background-color: #cc3333;
 }
 .fxt-template-layout14 ul.fxt-socials li.fxt-google a i {
   background-color: #db4437;
@@ -5677,14 +5694,17 @@ ul {
   display: none;
 }
 .fxt-template-layout14 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
   left: 15px;
   top: 4px;
 }
-.fxt-template-layout14 .checkbox input[type="checkbox"]:checked + label::before {
+.fxt-template-layout14
+  .checkbox
+  input[type="checkbox"]:checked
+  + label::before {
   background-color: #e5698e;
   border-color: #e5698e;
 }
@@ -5819,7 +5839,10 @@ ul {
     padding-right: 5px;
   }
 }
-.fxt-template-layout15 .fxt-intro .fxt-page-switcher .switcher-text1:last-child {
+.fxt-template-layout15
+  .fxt-intro
+  .fxt-page-switcher
+  .switcher-text1:last-child {
   margin-right: 0;
   padding-right: 0;
   border-right: 0;
@@ -5903,7 +5926,7 @@ ul {
 .fxt-template-layout15 .fxt-btn-fill {
   margin-right: 30px;
   margin-top: 15px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -5990,12 +6013,12 @@ ul {
   color: #00acee;
 }
 .fxt-template-layout15 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
-  border-color: #CC3333;
+  background-color: #cc3333;
+  border-color: #cc3333;
 }
 .fxt-template-layout15 ul.fxt-socials li.fxt-google a:hover {
   background-color: transparent;
-  color: #CC3333;
+  color: #cc3333;
 }
 .fxt-template-layout15 ul.fxt-socials li.fxt-instagram a {
   background-color: #3f729b;
@@ -6006,12 +6029,12 @@ ul {
   color: #3f729b;
 }
 .fxt-template-layout15 ul.fxt-socials li.fxt-linkedin a {
-  background-color: #0077B5;
-  border-color: #0077B5;
+  background-color: #0077b5;
+  border-color: #0077b5;
 }
 .fxt-template-layout15 ul.fxt-socials li.fxt-linkedin a:hover {
   background-color: transparent;
-  color: #0077B5;
+  color: #0077b5;
 }
 .fxt-template-layout15 ul.fxt-socials li.fxt-youtube a {
   background-color: #c4302b;
@@ -6167,7 +6190,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout16 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -6365,7 +6388,7 @@ ul {
   background-color: #3dc5f3;
 }
 .fxt-template-layout16 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
+  background-color: #cc3333;
 }
 .fxt-template-layout16 ul.fxt-socials li.fxt-google a i {
   background-color: #db4437;
@@ -6412,14 +6435,17 @@ ul {
   display: none;
 }
 .fxt-template-layout16 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
   left: 15px;
   top: 4px;
 }
-.fxt-template-layout16 .checkbox input[type="checkbox"]:checked + label::before {
+.fxt-template-layout16
+  .checkbox
+  input[type="checkbox"]:checked
+  + label::before {
   background-color: #111;
   border-color: #111;
 }
@@ -6546,7 +6572,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout17 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -6744,7 +6770,7 @@ ul {
   background-color: #3dc5f3;
 }
 .fxt-template-layout17 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
+  background-color: #cc3333;
 }
 .fxt-template-layout17 ul.fxt-socials li.fxt-google a i {
   background-color: #db4437;
@@ -6791,14 +6817,17 @@ ul {
   display: none;
 }
 .fxt-template-layout17 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
   left: 15px;
   top: 4px;
 }
-.fxt-template-layout17 .checkbox input[type="checkbox"]:checked + label::before {
+.fxt-template-layout17
+  .checkbox
+  input[type="checkbox"]:checked
+  + label::before {
   background-color: #46a203;
   border-color: #46a203;
 }
@@ -6952,7 +6981,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout18 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -7152,7 +7181,7 @@ ul {
   background-color: #3dc5f3;
 }
 .fxt-template-layout18 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
+  background-color: #cc3333;
 }
 .fxt-template-layout18 ul.fxt-socials li.fxt-google a i {
   background-color: #db4437;
@@ -7199,14 +7228,17 @@ ul {
   display: none;
 }
 .fxt-template-layout18 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
   left: 15px;
   top: 4px;
 }
-.fxt-template-layout18 .checkbox input[type="checkbox"]:checked + label::before {
+.fxt-template-layout18
+  .checkbox
+  input[type="checkbox"]:checked
+  + label::before {
   background-color: #1fbe66;
   border-color: #1fbe66;
 }
@@ -7273,9 +7305,23 @@ ul {
 .fxt-template-layout19 .fxt-bg-img:before {
   content: "";
   background: rgba(0, 255, 180, 0.75);
-  background: -o-linear-gradient(top, rgba(0, 255, 180, 0.75) 16%, rgba(38, 112, 212, 0.75) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(16%, rgba(0, 255, 180, 0.75)), to(rgba(38, 112, 212, 0.75)));
-  background: linear-gradient(180deg, rgba(0, 255, 180, 0.75) 16%, rgba(38, 112, 212, 0.75) 100%);
+  background: -o-linear-gradient(
+    top,
+    rgba(0, 255, 180, 0.75) 16%,
+    rgba(38, 112, 212, 0.75) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(16%, rgba(0, 255, 180, 0.75)),
+    to(rgba(38, 112, 212, 0.75))
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(0, 255, 180, 0.75) 16%,
+    rgba(38, 112, 212, 0.75) 100%
+  );
   position: absolute;
   z-index: -1;
   height: 100%;
@@ -7427,7 +7473,7 @@ ul {
   }
 }
 .fxt-template-layout19 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -7452,7 +7498,7 @@ ul {
 }
 .fxt-template-layout19 .fxt-btn-ghost {
   margin-top: 15px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -7528,14 +7574,17 @@ ul {
   display: none;
 }
 .fxt-template-layout19 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
   left: 15px;
   top: 4px;
 }
-.fxt-template-layout19 .checkbox input[type="checkbox"]:checked + label::before {
+.fxt-template-layout19
+  .checkbox
+  input[type="checkbox"]:checked
+  + label::before {
   background-color: #2670d4;
   border-color: #2670d4;
 }
@@ -7589,11 +7638,11 @@ ul {
   color: #fff;
 }
 .fxt-template-layout19 ul.fxt-socials li.fxt-google a {
-  color: #CC3333;
+  color: #cc3333;
 }
 .fxt-template-layout19 ul.fxt-socials li.fxt-google a:hover {
-  border-color: #CC3333;
-  background-color: #CC3333;
+  border-color: #cc3333;
+  background-color: #cc3333;
   color: #fff;
 }
 .fxt-template-layout19 ul.fxt-socials li.fxt-instagram a {
@@ -7605,11 +7654,11 @@ ul {
   color: #fff;
 }
 .fxt-template-layout19 ul.fxt-socials li.fxt-linkedin a {
-  color: #0077B5;
+  color: #0077b5;
 }
 .fxt-template-layout19 ul.fxt-socials li.fxt-linkedin a:hover {
-  border-color: #0077B5;
-  background-color: #0077B5;
+  border-color: #0077b5;
+  background-color: #0077b5;
   color: #fff;
 }
 .fxt-template-layout19 ul.fxt-socials li.fxt-youtube a {
@@ -7760,7 +7809,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout20 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -7958,7 +8007,7 @@ ul {
   background-color: #3dc5f3;
 }
 .fxt-template-layout20 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
+  background-color: #cc3333;
 }
 .fxt-template-layout20 ul.fxt-socials li.fxt-google a i {
   background-color: #db4437;
@@ -8005,14 +8054,17 @@ ul {
   display: none;
 }
 .fxt-template-layout20 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
   left: 15px;
   top: 4px;
 }
-.fxt-template-layout20 .checkbox input[type="checkbox"]:checked + label::before {
+.fxt-template-layout20
+  .checkbox
+  input[type="checkbox"]:checked
+  + label::before {
   background-color: #6b79fd;
   border-color: #6b79fd;
 }
@@ -8161,7 +8213,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout21 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -8359,7 +8411,7 @@ ul {
   background-color: #3dc5f3;
 }
 .fxt-template-layout21 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
+  background-color: #cc3333;
 }
 .fxt-template-layout21 ul.fxt-socials li.fxt-google a i {
   background-color: #db4437;
@@ -8406,14 +8458,17 @@ ul {
   display: none;
 }
 .fxt-template-layout21 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
   left: 15px;
   top: 4px;
 }
-.fxt-template-layout21 .checkbox input[type="checkbox"]:checked + label::before {
+.fxt-template-layout21
+  .checkbox
+  input[type="checkbox"]:checked
+  + label::before {
   background-color: #111;
   border-color: #111;
 }
@@ -8581,7 +8636,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout22 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -8759,13 +8814,13 @@ ul {
   background-color: #3dc5f3;
 }
 .fxt-template-layout22 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
+  background-color: #cc3333;
 }
 .fxt-template-layout22 ul.fxt-socials li.fxt-google a:before {
   background-color: #e75042;
 }
 .fxt-template-layout22 ul.fxt-socials li.fxt-linkedin a {
-  background-color: #0077B5;
+  background-color: #0077b5;
 }
 .fxt-template-layout22 ul.fxt-socials li.fxt-linkedin a:before {
   background-color: #006da6;
@@ -8809,14 +8864,17 @@ ul {
   display: none;
 }
 .fxt-template-layout22 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
   left: 15px;
   top: 4px;
 }
-.fxt-template-layout22 .checkbox input[type="checkbox"]:checked + label::before {
+.fxt-template-layout22
+  .checkbox
+  input[type="checkbox"]:checked
+  + label::before {
   background-color: #ff0000;
   border-color: #ff0000;
 }
@@ -8944,7 +9002,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout23 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -9144,7 +9202,7 @@ ul {
   background-color: #3dc5f3;
 }
 .fxt-template-layout23 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
+  background-color: #cc3333;
 }
 .fxt-template-layout23 ul.fxt-socials li.fxt-google a i {
   background-color: #db4437;
@@ -9205,14 +9263,17 @@ ul {
   display: none;
 }
 .fxt-template-layout23 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
   left: 15px;
   top: 4px;
 }
-.fxt-template-layout23 .checkbox input[type="checkbox"]:checked + label::before {
+.fxt-template-layout23
+  .checkbox
+  input[type="checkbox"]:checked
+  + label::before {
   background-color: #1fbe66;
   border-color: #1fbe66;
 }
@@ -9361,7 +9422,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout24 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -9454,14 +9515,17 @@ ul {
   display: none;
 }
 .fxt-template-layout24 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
   left: 15px;
   top: 4px;
 }
-.fxt-template-layout24 .checkbox input[type="checkbox"]:checked + label::before {
+.fxt-template-layout24
+  .checkbox
+  input[type="checkbox"]:checked
+  + label::before {
   background-color: #ffbd3f;
   border-color: #ffbd3f;
 }
@@ -9541,7 +9605,13 @@ ul {
   content: "";
   background: #2300ff;
   background: -o-linear-gradient(top, rgba(35, 0, 255, 0.8) 16%, #7a2dff 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(16%, rgba(35, 0, 255, 0.8)), to(#7a2dff));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(16%, rgba(35, 0, 255, 0.8)),
+    to(#7a2dff)
+  );
   background: linear-gradient(180deg, rgba(35, 0, 255, 0.8) 16%, #7a2dff 100%);
   position: absolute;
   z-index: -1;
@@ -9613,7 +9683,11 @@ ul {
     margin-right: 2px;
   }
 }
-.fxt-template-layout25 .fxt-header .fxt-bottom-content ul.fxt-socials li:last-child {
+.fxt-template-layout25
+  .fxt-header
+  .fxt-bottom-content
+  ul.fxt-socials
+  li:last-child {
   margin-right: 0;
 }
 .fxt-template-layout25 .fxt-header .fxt-bottom-content ul.fxt-socials li a {
@@ -9636,59 +9710,129 @@ ul {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.fxt-template-layout25 .fxt-header .fxt-bottom-content ul.fxt-socials li.fxt-facebook a {
+.fxt-template-layout25
+  .fxt-header
+  .fxt-bottom-content
+  ul.fxt-socials
+  li.fxt-facebook
+  a {
   background-color: #3b5998;
   border-color: #3b5998;
 }
-.fxt-template-layout25 .fxt-header .fxt-bottom-content ul.fxt-socials li.fxt-facebook a:hover {
+.fxt-template-layout25
+  .fxt-header
+  .fxt-bottom-content
+  ul.fxt-socials
+  li.fxt-facebook
+  a:hover {
   background-color: transparent;
   color: #3b5998;
 }
-.fxt-template-layout25 .fxt-header .fxt-bottom-content ul.fxt-socials li.fxt-twitter a {
+.fxt-template-layout25
+  .fxt-header
+  .fxt-bottom-content
+  ul.fxt-socials
+  li.fxt-twitter
+  a {
   background-color: #00acee;
   border-color: #00acee;
 }
-.fxt-template-layout25 .fxt-header .fxt-bottom-content ul.fxt-socials li.fxt-twitter a:hover {
+.fxt-template-layout25
+  .fxt-header
+  .fxt-bottom-content
+  ul.fxt-socials
+  li.fxt-twitter
+  a:hover {
   background-color: transparent;
   color: #00acee;
 }
-.fxt-template-layout25 .fxt-header .fxt-bottom-content ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
-  border-color: #CC3333;
+.fxt-template-layout25
+  .fxt-header
+  .fxt-bottom-content
+  ul.fxt-socials
+  li.fxt-google
+  a {
+  background-color: #cc3333;
+  border-color: #cc3333;
 }
-.fxt-template-layout25 .fxt-header .fxt-bottom-content ul.fxt-socials li.fxt-google a:hover {
+.fxt-template-layout25
+  .fxt-header
+  .fxt-bottom-content
+  ul.fxt-socials
+  li.fxt-google
+  a:hover {
   background-color: transparent;
-  color: #CC3333;
+  color: #cc3333;
 }
-.fxt-template-layout25 .fxt-header .fxt-bottom-content ul.fxt-socials li.fxt-instagram a {
+.fxt-template-layout25
+  .fxt-header
+  .fxt-bottom-content
+  ul.fxt-socials
+  li.fxt-instagram
+  a {
   background-color: #3f729b;
   border-color: #3f729b;
 }
-.fxt-template-layout25 .fxt-header .fxt-bottom-content ul.fxt-socials li.fxt-instagram a:hover {
+.fxt-template-layout25
+  .fxt-header
+  .fxt-bottom-content
+  ul.fxt-socials
+  li.fxt-instagram
+  a:hover {
   background-color: transparent;
   color: #3f729b;
 }
-.fxt-template-layout25 .fxt-header .fxt-bottom-content ul.fxt-socials li.fxt-linkedin a {
-  background-color: #0077B5;
-  border-color: #0077B5;
+.fxt-template-layout25
+  .fxt-header
+  .fxt-bottom-content
+  ul.fxt-socials
+  li.fxt-linkedin
+  a {
+  background-color: #0077b5;
+  border-color: #0077b5;
 }
-.fxt-template-layout25 .fxt-header .fxt-bottom-content ul.fxt-socials li.fxt-linkedin a:hover {
+.fxt-template-layout25
+  .fxt-header
+  .fxt-bottom-content
+  ul.fxt-socials
+  li.fxt-linkedin
+  a:hover {
   background-color: transparent;
-  color: #0077B5;
+  color: #0077b5;
 }
-.fxt-template-layout25 .fxt-header .fxt-bottom-content ul.fxt-socials li.fxt-youtube a {
+.fxt-template-layout25
+  .fxt-header
+  .fxt-bottom-content
+  ul.fxt-socials
+  li.fxt-youtube
+  a {
   background-color: #c4302b;
   border-color: #c4302b;
 }
-.fxt-template-layout25 .fxt-header .fxt-bottom-content ul.fxt-socials li.fxt-youtube a:hover {
+.fxt-template-layout25
+  .fxt-header
+  .fxt-bottom-content
+  ul.fxt-socials
+  li.fxt-youtube
+  a:hover {
   background-color: transparent;
   color: #c4302b;
 }
-.fxt-template-layout25 .fxt-header .fxt-bottom-content ul.fxt-socials li.fxt-pinterest a {
+.fxt-template-layout25
+  .fxt-header
+  .fxt-bottom-content
+  ul.fxt-socials
+  li.fxt-pinterest
+  a {
   background-color: #bd081c;
   border-color: #bd081c;
 }
-.fxt-template-layout25 .fxt-header .fxt-bottom-content ul.fxt-socials li.fxt-pinterest a:hover {
+.fxt-template-layout25
+  .fxt-header
+  .fxt-bottom-content
+  ul.fxt-socials
+  li.fxt-pinterest
+  a:hover {
   background-color: transparent;
   color: #bd081c;
 }
@@ -9808,7 +9952,7 @@ ul {
   }
 }
 .fxt-template-layout25 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -9833,7 +9977,7 @@ ul {
 }
 .fxt-template-layout25 .fxt-btn-ghost {
   margin-top: 15px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -9924,14 +10068,17 @@ ul {
   display: none;
 }
 .fxt-template-layout25 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
   left: 15px;
   top: 4px;
 }
-.fxt-template-layout25 .checkbox input[type="checkbox"]:checked + label::before {
+.fxt-template-layout25
+  .checkbox
+  input[type="checkbox"]:checked
+  + label::before {
   background-color: #2670d4;
   border-color: #2670d4;
 }
@@ -10080,7 +10227,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout26 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -10230,11 +10377,11 @@ ul {
   color: #fff;
 }
 .fxt-template-layout26 ul.fxt-socials li.fxt-google a {
-  color: #CC3333;
+  color: #cc3333;
 }
 .fxt-template-layout26 ul.fxt-socials li.fxt-google a:hover {
-  border-color: #CC3333;
-  background-color: #CC3333;
+  border-color: #cc3333;
+  background-color: #cc3333;
   color: #fff;
 }
 .fxt-template-layout26 ul.fxt-socials li.fxt-instagram a {
@@ -10246,11 +10393,11 @@ ul {
   color: #fff;
 }
 .fxt-template-layout26 ul.fxt-socials li.fxt-linkedin a {
-  color: #0077B5;
+  color: #0077b5;
 }
 .fxt-template-layout26 ul.fxt-socials li.fxt-linkedin a:hover {
-  border-color: #0077B5;
-  background-color: #0077B5;
+  border-color: #0077b5;
+  background-color: #0077b5;
   color: #fff;
 }
 .fxt-template-layout26 ul.fxt-socials li.fxt-youtube a {
@@ -10308,14 +10455,17 @@ ul {
   display: none;
 }
 .fxt-template-layout26 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
   left: 15px;
   top: 4px;
 }
-.fxt-template-layout26 .checkbox input[type="checkbox"]:checked + label::before {
+.fxt-template-layout26
+  .checkbox
+  input[type="checkbox"]:checked
+  + label::before {
   background-color: #1fbe66;
   border-color: #1fbe66;
 }
@@ -10483,7 +10633,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout27 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -10673,12 +10823,12 @@ ul {
   color: #00acee;
 }
 .fxt-template-layout27 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
-  border-color: #CC3333;
+  background-color: #cc3333;
+  border-color: #cc3333;
 }
 .fxt-template-layout27 ul.fxt-socials li.fxt-google a:hover {
   background-color: transparent;
-  color: #CC3333;
+  color: #cc3333;
 }
 .fxt-template-layout27 ul.fxt-socials li.fxt-instagram a {
   background-color: #3f729b;
@@ -10689,12 +10839,12 @@ ul {
   color: #3f729b;
 }
 .fxt-template-layout27 ul.fxt-socials li.fxt-linkedin a {
-  background-color: #0077B5;
-  border-color: #0077B5;
+  background-color: #0077b5;
+  border-color: #0077b5;
 }
 .fxt-template-layout27 ul.fxt-socials li.fxt-linkedin a:hover {
   background-color: transparent;
-  color: #0077B5;
+  color: #0077b5;
 }
 .fxt-template-layout27 ul.fxt-socials li.fxt-youtube a {
   background-color: #c4302b;
@@ -10751,14 +10901,17 @@ ul {
   display: none;
 }
 .fxt-template-layout27 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
   left: 15px;
   top: 4px;
 }
-.fxt-template-layout27 .checkbox input[type="checkbox"]:checked + label::before {
+.fxt-template-layout27
+  .checkbox
+  input[type="checkbox"]:checked
+  + label::before {
   background-color: #e9b102;
   border-color: #e9b102;
 }
@@ -10923,7 +11076,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout28 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -11115,12 +11268,12 @@ ul {
   color: #00acee;
 }
 .fxt-template-layout28 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
-  border-color: #CC3333;
+  background-color: #cc3333;
+  border-color: #cc3333;
 }
 .fxt-template-layout28 ul.fxt-socials li.fxt-google a:hover {
   background-color: transparent;
-  color: #CC3333;
+  color: #cc3333;
 }
 .fxt-template-layout28 ul.fxt-socials li.fxt-instagram a {
   background-color: #3f729b;
@@ -11131,12 +11284,12 @@ ul {
   color: #3f729b;
 }
 .fxt-template-layout28 ul.fxt-socials li.fxt-linkedin a {
-  background-color: #0077B5;
-  border-color: #0077B5;
+  background-color: #0077b5;
+  border-color: #0077b5;
 }
 .fxt-template-layout28 ul.fxt-socials li.fxt-linkedin a:hover {
   background-color: transparent;
-  color: #0077B5;
+  color: #0077b5;
 }
 .fxt-template-layout28 ul.fxt-socials li.fxt-youtube a {
   background-color: #c4302b;
@@ -11193,14 +11346,17 @@ ul {
   display: none;
 }
 .fxt-template-layout28 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
   left: 15px;
   top: 4px;
 }
-.fxt-template-layout28 .checkbox input[type="checkbox"]:checked + label::before {
+.fxt-template-layout28
+  .checkbox
+  input[type="checkbox"]:checked
+  + label::before {
   background-color: #1fbe66;
   border-color: #1fbe66;
 }
@@ -11403,7 +11559,7 @@ ul {
 .fxt-template-layout29 .fxt-btn-fill {
   margin-right: 30px;
   margin-top: 15px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -11490,12 +11646,12 @@ ul {
   color: #00acee;
 }
 .fxt-template-layout29 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
-  border-color: #CC3333;
+  background-color: #cc3333;
+  border-color: #cc3333;
 }
 .fxt-template-layout29 ul.fxt-socials li.fxt-google a:hover {
   background-color: transparent;
-  color: #CC3333;
+  color: #cc3333;
 }
 .fxt-template-layout29 ul.fxt-socials li.fxt-instagram a {
   background-color: #3f729b;
@@ -11506,12 +11662,12 @@ ul {
   color: #3f729b;
 }
 .fxt-template-layout29 ul.fxt-socials li.fxt-linkedin a {
-  background-color: #0077B5;
-  border-color: #0077B5;
+  background-color: #0077b5;
+  border-color: #0077b5;
 }
 .fxt-template-layout29 ul.fxt-socials li.fxt-linkedin a:hover {
   background-color: transparent;
-  color: #0077B5;
+  color: #0077b5;
 }
 .fxt-template-layout29 ul.fxt-socials li.fxt-youtube a {
   background-color: #c4302b;
@@ -11679,7 +11835,7 @@ ul {
   font-weight: 300;
 }
 .fxt-template-layout30 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -11828,12 +11984,12 @@ ul {
   color: #00acee;
 }
 .fxt-template-layout30 ul.fxt-socials li.fxt-google a {
-  background-color: #CC3333;
-  border-color: #CC3333;
+  background-color: #cc3333;
+  border-color: #cc3333;
 }
 .fxt-template-layout30 ul.fxt-socials li.fxt-google a:hover {
   background-color: transparent;
-  color: #CC3333;
+  color: #cc3333;
 }
 .fxt-template-layout30 ul.fxt-socials li.fxt-instagram a {
   background-color: #3f729b;
@@ -11844,12 +12000,12 @@ ul {
   color: #3f729b;
 }
 .fxt-template-layout30 ul.fxt-socials li.fxt-linkedin a {
-  background-color: #0077B5;
-  border-color: #0077B5;
+  background-color: #0077b5;
+  border-color: #0077b5;
 }
 .fxt-template-layout30 ul.fxt-socials li.fxt-linkedin a:hover {
   background-color: transparent;
-  color: #0077B5;
+  color: #0077b5;
 }
 .fxt-template-layout30 ul.fxt-socials li.fxt-youtube a {
   background-color: #c4302b;
@@ -11906,14 +12062,17 @@ ul {
   display: none;
 }
 .fxt-template-layout30 .checkbox input[type="checkbox"]:checked + label::after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
   color: #ffffff;
   left: 15px;
   top: 4px;
 }
-.fxt-template-layout30 .checkbox input[type="checkbox"]:checked + label::before {
+.fxt-template-layout30
+  .checkbox
+  input[type="checkbox"]:checked
+  + label::before {
   background-color: #2e4bf1;
   border-color: #2e4bf1;
 }
@@ -12017,7 +12176,7 @@ ul {
   width: 100%;
 }
 .fxt-otp-layout1 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -12165,7 +12324,7 @@ ul {
   width: 100%;
 }
 .fxt-otp-layout2 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -12311,7 +12470,7 @@ ul {
   width: 100%;
 }
 .fxt-otp-layout3 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -12500,7 +12659,7 @@ ul {
   width: 100%;
 }
 .fxt-otp-layout4 .fxt-btn-fill {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
